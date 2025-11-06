@@ -1,4 +1,4 @@
-###🦾 PhysioAI - AI Posture Correction System###
+# 🦾 PhysioAI - AI Posture Correction System
 
 PhysioAI is an AI-powered web application designed to help users perform physiotherapy exercises correctly at home. Using real-time pose estimation, it tracks the user's body, counts repetitions, and provides instant audio-visual feedback to correct bad posture, making recovery safer and more consistent.
 
