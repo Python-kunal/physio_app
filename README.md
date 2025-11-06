@@ -1,10 +1,10 @@
-##🦾 PhysioAI - AI Posture Correction System
+###🦾 PhysioAI - AI Posture Correction System
 
 PhysioAI is an AI-powered web application designed to help users perform physiotherapy exercises correctly at home. Using real-time pose estimation, it tracks the user's body, counts repetitions, and provides instant audio-visual feedback to correct bad posture, making recovery safer and more consistent.
 
 This project was built for a hackathon, demonstrating a complete full-stack application with a React frontend, Firebase backend, and MediaPipe for real-time AI.
 
-##✨ Key Features
+**✨ Key Features**
 
 User Authentication: Secure Sign Up and Login system using Firebase Authentication (Email/Password + Username).
 
@@ -35,11 +35,11 @@ User Profile Page: Displays user details, lifetime stats, and a "Contact Us" fee
 Fully Responsive: Designed to work smoothly on both desktop and mobile devices.
 
 
-##🛠️ Technology Stack
+**🛠️ Technology Stack**
 
 Frontend: React.js (Vite)
 
-#UI/UX:
+**UI/UX:**
 
 Material-UI (MUI) - For components and layout
 
@@ -49,20 +49,20 @@ React-Chartjs-2 - For the progress graph
 
 AI / Pose Estimation: MediaPipe (loaded via CDN)
 
-#Backend (BaaS):
+**Backend (BaaS):**
 
 Firebase Authentication: For user login/signup.
 
 Firebase Firestore: As the NoSQL database for user data, sessions, and feedback.
 
-#Browser APIs:
+**Browser APIs:**
 
 Web Speech API (SpeechSynthesis) - For voice feedback
 
 WebRTC (getUserMedia) - For camera access
 
 
-##🚀 How It Works (User Flow)
+**🚀 How It Works (User Flow)**
 
 Sign Up: A new user signs up with their Username, Email, and Password. Their data is saved to Authentication and a new user document is created in Firestore.
 
@@ -87,9 +87,9 @@ Track Progress: The user can go to the "Progress" tab to see their lifetime stat
 Give Feedback: The user can go to the "Profile" tab to send feedback via the "Contact Us" form, which also saves to Firestore.
 
 
-##🔧 How to Run Locally
+**🔧 How to Run Locally**
 
-#Clone the repository:
+Clone the repository:
 
 git clone [YOUR_REPOSITORY_URL]
 cd physio-ai
@@ -116,7 +116,7 @@ In the project, create src/firebase.js and paste your config (use the code from 
 
 Go to Firestore Database -> Indexes. The app will fail on the "Progress" page. Check the browser console, click the Firebase link to auto-create the required composite indexes.
 
-#Add Video Assets:
+**Add Video Assets:**
 
 Create a folder public/videos/.
 
@@ -130,7 +130,7 @@ hip_raise.mp4
 
 back_stretch.mp4
 
-#Run the app:
+**Run the app:**
 
 npm run dev
 
