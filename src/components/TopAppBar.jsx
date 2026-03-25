@@ -9,7 +9,7 @@ function TopAppBar({ user, onLoginClick, onLogoutClick }) {
       <Toolbar>
         <Spa sx={{ mr: 2, color: '#64b5f6' }} />
         <Typography variant="h6" component="div" sx={{ fontWeight: 'bold' }}>
-          PhysioAI
+          PhysioCoach AI
         </Typography>
 
         <Box sx={{ flexGrow: 1 }} />
